@@ -1,0 +1,17 @@
+(defwidget power []
+  (box
+    :class "power"
+    
+  )
+)
+
+
+(defwindow power
+  :monitor 0
+  :geometry (geometry :x "1%"
+                      :y "2%"
+                      :width "45%"
+                      :height "10%"
+                      :anchor "center")
+  :reserve (struts :side "top" :distance "4%")
+  (power))
